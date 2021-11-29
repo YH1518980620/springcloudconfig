@@ -1,6 +1,8 @@
 spring:
+  application:
+    name: server-employee
   profiles:
-    active: test
+    active: dev
 ---
 server:
   port: 8001
@@ -34,7 +36,7 @@ eureka:
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
   instance:
-    instance-id: server-empolyee-8001   #自定义服务名称信息
+    instance-id: server-empolyee   #自定义服务名称信息
 ---
 server:
   port: 8101
@@ -68,7 +70,7 @@ eureka:
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
   instance:
-    instance-id: server-empolyee-8001   #自定义服务名称信息
+    instance-id: server-empolyee   #自定义服务名称信息
 ---
 server:
   port: 8201
@@ -102,4 +104,4 @@ eureka:
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
   instance:
-    instance-id: server-empolyee-8001   #自定义服务名称信息
+    instance-id: server-empolyee   #自定义服务名称信息

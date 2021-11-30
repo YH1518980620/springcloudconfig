@@ -1,9 +1,3 @@
-spring:
-  application:
-    name: server-employee
-  profiles:
-    active: dev
----
 server:
   port: 8001
 

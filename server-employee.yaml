@@ -10,7 +10,6 @@ mybatis:
     map-underscore-to-camel-case: true
 
 spring:
-  profiles: dev
   application:
     name: server-employee
   datasource:

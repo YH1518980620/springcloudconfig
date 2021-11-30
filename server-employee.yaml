@@ -8,6 +8,7 @@ mybatis:
     - classpath:mybatis/mapper/**/*.xml                       # mapper映射文件
   configuration:
     map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
 spring:
   application:

@@ -13,8 +13,8 @@ zuul:
   routes:
     #设置路由
     myEployee.serviceId: client-80
-    myEployee.path: /train/**
+    myEployee.path: /**
   #隐藏原本的路径，"*"隐藏所有微服务路径
   ignored-services: client-80
   #设置访问前缀
-  prefix: /hand
+  prefix: /train

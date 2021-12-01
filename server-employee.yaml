@@ -34,4 +34,4 @@ eureka:
 
 logging:
   path: D:/springlog/mylog
-  file: mylog.log
+  level: debug
